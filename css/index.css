@@ -1,0 +1,691 @@
+@font-face {
+  font-family: "DINPro";
+  src: url("../fonts/DINPro-Regular.ttf");
+}
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../fonts/MYRIADPRO-REGULAR.woff");
+}
+
+.parent{
+  position: relative;
+}
+.college-list{
+    display:block;
+    width: 1440px;
+    height: 504px;
+    background-color: #ffffff;
+    align-content: center;
+}
+
+.college-region-title{
+  position: absolute;
+    width: 190px;
+    height: 18px;
+    font-family: DINPro;
+    font-size: 18.5px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    text-align: left;
+    color: #444444;
+    margin-top: 22px;
+    margin-left: 56px;
+    margin-bottom: 0px;
+}
+.college1{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/college_02.jpg);
+    opacity: 0.7;
+    background-color: #000000;
+}
+* {
+  box-sizing: border-box;
+}
+.column-0 {
+  position: absolute;
+  height: 378px;
+  width: 639px;
+  border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: solid 0.2px #444444;
+  background-color: #ffffff;
+  
+}
+.column-0.leftColumn{
+  left: 3.8%;
+  top: 21.4%;
+}
+
+.column-0.rightColumn{
+  left: 747px;
+  top: 21.4%;
+}
+
+
+.container {
+  position: relative;
+}
+.container.img{
+    opacity: 0.7;
+}
+
+.text1 {
+  position: absolute;
+  top: 80.8%;
+  left: 2.5%;
+}
+
+.text2 {
+  position: absolute;
+  top: 80.8%;
+  left: 24.8%;
+}
+
+.text3 {
+  position: absolute;
+  top: 85.5%;
+  left: 66.8%;
+  width: 199px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.text4 {
+  position: absolute;
+  top: 5.1%;
+  left: 86.2%;
+}
+
+.Rectangle-2 {
+  width: 134px;
+  height: 34px;
+  border-radius: 16.5px;
+  background-color: #ffffff;
+}
+
+.Best-college-2018 {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 12.8px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+  top: 28.0%;
+  left: 12.7%;
+  bottom: 29.4%;
+}
+
+.Rectangle-3 {
+  width: 93px;
+  height: 34px;
+  border-radius: 16.5px;
+  background-color: #ffffff;
+}
+
+.kms-away {
+  position: relative;
+  width: 64px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+  top: 29.4%;
+  left: 15.1%;
+  /* bottom: 29.4%; */
+}
+
+.Rectangle-4 {
+  width: 75px;
+  height: 53px;
+  border-radius: 3.8px;
+  background-color: #f5a626;
+}
+
+.-Very-Good {
+  position: relative;
+  width: 57px;
+  height: 35px;
+  font-family: DINPro;
+  font-size: 12.7px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  top: 17%;
+  left: 12%;
+}
+
+.-Very-Good .text-style-1 {
+  font-size: 16.5px;
+  font-weight: bold;
+}
+
+.Ramjas-College-Delhi-University-div {
+  position: absolute;
+  top: 66.8%;
+  left: 2.5%;
+}
+.Ramjas-College-Delhi-University {
+  width: 258px;
+  height: 17px;
+  font-family: DINPro;
+  font-size: 17.7px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2a81e2;
+}
+
+.Hansraj-College-Delhi-University-div {
+  position: absolute;
+  top: 66.8%;
+  left: 2.5%;
+}
+.Hansraj-College-Delhi-University {
+  width: 258px;
+  height: 17px;
+  font-family: DINPro;
+  font-size: 17.7px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+}
+
+.old-amount {
+  position: absolute;
+  width: 36px;
+  height: 10px;
+  font-family: DINPro;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+  left: 87.1%;
+  top: 66%;
+  text-decoration: line-through;
+
+}
+.old-amount .text-style-1 {
+  font-family: Myriad Pro;
+  font-weight: normal;
+}
+
+.Vector-Smart-Object1 {
+  position: absolute;
+  left: -5px;
+  top: 88%;
+}
+
+.Vector-Smart-Object{
+  background-color: red;
+  position: absolute;
+  width: 29px;
+  height: 14px;
+  top: 66.8%;
+  left: 93.3%
+}
+
+.Vector-Smart-Object2{
+  position: absolute;
+  top: -25%;
+  left: 75%
+}
+
+.Ellipse-2 {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #ffffff;
+  top: 35.7%;
+  left: 24.1%;
+}
+
+.discount-percent {
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    font-family: DINPro;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    /* text-align: center; */
+    color: #ffffff;
+    left: 44.8%;
+}
+
+.Near-Vishwavidyalya-Metro-Station-copy {
+  position: absolute;
+  width: 197px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+  top: 74.5%;
+  left: 2.5%;
+}
+
+.Shape-2-copy {
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  border: solid 0.4px #444444;
+  background-color: #444444;
+  top: 75.25%;
+  left: 34.3%;
+}
+.Shape-2 {
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  border: solid 0.4px #444444;
+  background-color: #444444;
+  top: 75.25%;
+  left: 34%;
+}
+
+
+.-Kms-away-from-bus-stand-copy {
+  position: absolute;
+  width: 157px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+  top: 74.5%;
+  left: 35.4%;
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk-copy {
+  position: absolute;
+  top: 85.7%;
+  left: 2.7%;
+  width: 357px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk-copy .text-style-1 {
+  font-weight: bold;
+  color: #37b396;
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk-copy .text-style-2 {
+  font-weight: bold;
+  color: #444444;
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk {
+  position: absolute;
+  top: 82.2%;
+  left: 2.7%;
+  width: 357px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk .text-style-1 {
+  font-weight: bold;
+  color: #37b396;
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk .text-style-2 {
+  font-weight: bold;
+  color: #444444;
+}
+
+
+.Free-Cancellation-copy {
+  position: absolute;
+  width: 102px;
+  height: 11px;
+  font-family: DINPro;
+  font-size: 13.0px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #37b396;
+  top: 85.4%;
+  left: 69.9%;
+}
+
+.Free-Cancellation {
+  position: absolute;
+  width: 102px;
+  height: 11px;
+  font-family: DINPro;
+  font-size: 13.0px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #37b396;
+  top: 91%;
+  left: 69.9%;
+}
+
+.Ellipse-1-copy {
+  position: absolute;
+  width: 3px;
+  height: 4px;
+  top: 87.7%;
+  left: 87%;
+  background-color: #37b396;
+}
+
+.Ellipse-1 {
+  position: absolute;
+  width: 3px;
+  height: 4px;
+  top: 93.5%;
+  left: 87%;
+  background-color: #37b396;
+}
+
+.Free-Wi-Fi-copy {
+  position: absolute;
+  width: 60px;
+  height: 11px;
+  font-family: DINPro;
+  font-size: 13.0px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #37b396;
+  top: 85.4%;
+  left: 88.6%;
+}
+.Free-Wi-Fi {
+  position: absolute;
+  width: 60px;
+  height: 11px;
+  font-family: DINPro;
+  font-size: 13.0px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #37b396;
+  top: 91%;
+  left: 88.6%;
+}
+
+.Get-50-Instant-discount-up-to-INR-1750-MORE {
+  position: absolute;
+  top:92.6%;
+  left:14.4%;
+  width: 281px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 12.8px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4bb89e;
+}
+
+.Get-50-Instant-discount-up-to-INR-1750-MORE .text-style-1 {
+  font-weight: 500;
+}
+
+.new-price {
+  width: 85px;
+  height: 26px;
+  font-family: DINPro;
+  font-size: 26.9px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: center;
+  color: #dd1c26;
+  position: absolute;
+  top:72.1%;
+  left:84.8%;
+}
+
+.new-price .text-style-1 {
+  font-family: MyriadPro;
+}
+
+.Per-Semester-3months {
+  width: 105px;
+  height: 10px;
+  font-family: Myriad Pro;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+  position: absolute;
+  top:79.8%;
+  left:81.5%;
+}
+.Rectangle-5 {
+  position: absolute;
+  width: 347px;
+  height: 35px;
+  background-color: #ccf5e7;
+  border-top-right-radius: 17.5px;
+  border-bottom-right-radius: 17.5px;
+  top: 88.1%;
+}
+
+.Flat-Rs2000-off-upto-Rs-500-wallet-to-avail-LOGIN {
+  position: absolute;
+  width: 309px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 12.8px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+  top: 31.4%;
+  left:3.8%;
+}
+.Flat-Rs2000-off-upto-Rs-500-wallet-to-avail-LOGIN .text-style-1 {
+  font-weight: 500;
+}
+.Flat-Rs2000-off-upto-Rs-500-wallet-to-avail-LOGIN .text-style-2 {
+  color: #4bb89e;
+}
+.Flat-Rs2000-off-upto-Rs-500-wallet-to-avail-LOGIN .text-style-3 {
+  color: #1999d2;
+}
+
+.container{
+  background-color: #000000;
+  height:234px;
+  -webkit-background-size: contain !important;
+}
+
+.column-0 .container{
+  background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../images/college_02.jpg);
+}
+.column-1 .container{
+  background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../images/college_01.jpg);
+}
+
+
+
+/* CSS for stars */
+.rating {
+  position: absolute;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  top: 4.3%;
+}
+
+span:before {
+  position: absolute;
+}
+.ns:before {
+  content: "\2605";
+}
+     
+/* tag */
+.tags {
+  margin:0;
+  padding:0;
+  position:absolute;
+  left:24px;
+  top: 12px;
+  list-style:none;
+}
+.tags li, .tags a {
+  float:left;
+  height:24px;
+  line-height:24px;
+  position:relative;
+  font-size:11px;
+}
+.tags a {
+  padding:0 12px 0 12px;
+  background:#4bb89e;
+  color:#fff;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-decoration:none;
+  -moz-border-radius-bottomright:2px;
+  -webkit-border-bottom-right-radius:2px;
+  border-bottom-right-radius:2px;
+  -moz-border-radius-topright:2px;
+  -webkit-border-top-right-radius:2px;
+  border-top-right-radius:2px;
+  
+  -webkit-box-shadow: 1px 3px 3px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 3px 3px 1px rgba(0,0,0,0.2);
+  box-shadow: 1px 3px 3px 1px rgba(0,0,0,0.2);
+}
+.tags a:before {
+  content:"";
+  float:left;
+  position:absolute;
+  top:0;
+  right:-12px;
+  width:0;
+  height:0;
+  border-color: #4bb89e  transparent  #4bb89e transparent;
+  border-style:solid;
+  border-width:12px 12px 12px 0;
+}
+/* .tags a:after {
+  content:"";
+  position:absolute;
+  top:10px;
+  right:5px;
+  float:left;
+  width:4px;
+  height:4px;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  background:#fff;
+  -moz-box-shadow:-1px -1px 2px #004977;
+  -webkit-box-shadow:-1px -1px 2px #004977;
+  box-shadow:-1px -1px 2px #004977;
+} */
+.tags a:hover {
+  background:#888;
+}
+.tags a:hover:before {
+  border-color: #888 transparent #888 transparent;
+}
+
